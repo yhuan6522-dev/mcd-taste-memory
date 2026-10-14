@@ -78,7 +78,7 @@ python3 tests/test_offline.py -v
 
 ## 数据来源
 
-`references/mcp-customization.md` 里的结构与结论来自 2026-10-13 的实机调用（门店 3570183，到店自提），不是推测。fixtures 是同一次抓取的真实返回，饮料轮次做了裁剪。
+`references/mcp-customization.md` 里的结构与结论来自 2026-10-13 的实机调用（门店号已脱敏为 3XXXXXX，到店自提），不是推测。fixtures 是同一次抓取的真实返回，饮料轮次做了裁剪。
 
 ## License
 
