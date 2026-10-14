@@ -1,0 +1,21 @@
+{
+  "_note": "单品场景 fixture：巨无霸 1100（可增减配料组）+ 麦咖啡热美式 507368（supportModify=true 但 values 为空，用于验证降级）",
+  "code": "1100",
+  "name": "巨无霸",
+  "supportModify": true,
+  "modification": {
+    "items": [
+      {
+        "maxValues": 5,
+        "minValues": 0,
+        "values": [
+          {"code": "100116", "name": "巨无霸酱", "selectedQuantity": 1, "selectedKey": "0-1", "unselectedKey": "0-0"},
+          {"code": "100141", "name": "吉士", "selectedQuantity": 1, "selectedKey": "0-1", "unselectedKey": "0-0"},
+          {"code": "100168", "name": "生菜", "selectedQuantity": 1, "selectedKey": "0-1", "unselectedKey": "0-0"},
+          {"code": "100202", "name": "酸黄瓜", "selectedQuantity": 1, "selectedKey": "0-1", "unselectedKey": "0-0"},
+          {"code": "100212", "name": "洋葱粒", "selectedQuantity": 1, "selectedKey": "0-1", "unselectedKey": "0-0"}
+        ]
+      }
+    ]
+  }
+}

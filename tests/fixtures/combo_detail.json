@@ -1,0 +1,84 @@
+{
+  "_note": "巨无霸三件套 9900005466 的 query-meal-detail 真实返回（门店 3570183，2026-10-13 抓取，饮料轮次保留 4 项，其余略）",
+  "code": "9900005466",
+  "name": "巨无霸三件套",
+  "supportModify": false,
+  "rounds": [
+    {
+      "id": 1,
+      "name": "新升级巨无霸",
+      "quantity": 1,
+      "choices": [
+        {
+          "code": "1100",
+          "name": "巨无霸",
+          "isDefault": 1,
+          "supportModify": true,
+          "modification": {
+            "items": [
+              {
+                "maxValues": 5,
+                "minValues": 0,
+                "values": [
+                  {"code": "100116", "name": "巨无霸酱", "selectedQuantity": 1, "selectedKey": "0-1", "unselectedKey": "0-0"},
+                  {"code": "100141", "name": "吉士", "selectedQuantity": 1, "selectedKey": "0-1", "unselectedKey": "0-0"},
+                  {"code": "100168", "name": "生菜", "selectedQuantity": 1, "selectedKey": "0-1", "unselectedKey": "0-0"},
+                  {"code": "100202", "name": "酸黄瓜", "selectedQuantity": 1, "selectedKey": "0-1", "unselectedKey": "0-0"},
+                  {"code": "100212", "name": "洋葱粒", "selectedQuantity": 1, "selectedKey": "0-1", "unselectedKey": "0-0"}
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "选择套餐内小食",
+      "quantity": 1,
+      "choices": [
+        {"code": "4810", "name": "中薯条", "isDefault": 1, "supportModify": false},
+        {"code": "521901", "name": "月下相思扭扭薯", "isDefault": 0, "supportModify": false}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "选择套餐内饮料",
+      "quantity": 1,
+      "choices": [
+        {
+          "code": "3050", "name": "可乐中杯", "isDefault": 1, "supportModify": true,
+          "modification": {"items": [{"maxValues": 1, "minValues": 1, "values": [
+            {"code": "200002", "name": "标准", "selectedQuantity": 1, "selectedKey": "0-1"},
+            {"code": "200002", "name": "去冰", "selectedQuantity": 0, "selectedKey": "0-0"},
+            {"code": "200002", "name": "多冰", "selectedQuantity": 0, "selectedKey": "0-2"},
+            {"code": "200002", "name": "少冰", "selectedQuantity": 0, "selectedKey": "1-1"}
+          ]}]}
+        },
+        {
+          "code": "3060", "name": "雪碧中杯", "isDefault": 0, "supportModify": true,
+          "modification": {"items": [{"maxValues": 1, "minValues": 1, "values": [
+            {"code": "200002", "name": "标准", "selectedQuantity": 1, "selectedKey": "0-1"},
+            {"code": "200002", "name": "去冰", "selectedQuantity": 0, "selectedKey": "0-0"},
+            {"code": "200002", "name": "多冰", "selectedQuantity": 0, "selectedKey": "0-2"},
+            {"code": "200002", "name": "少冰", "selectedQuantity": 0, "selectedKey": "1-1"}
+          ]}]}
+        },
+        {
+          "code": "3100", "name": "可乐大杯", "isDefault": 0, "supportModify": true,
+          "modification": {"items": [{"maxValues": 1, "minValues": 1, "values": [
+            {"code": "200002", "name": "标准", "selectedQuantity": 1, "selectedKey": "0-1"},
+            {"code": "200002", "name": "少冰", "selectedQuantity": 0, "selectedKey": "1-1"}
+          ]}]}
+        },
+        {
+          "code": "3110", "name": "雪碧大杯", "isDefault": 0, "supportModify": true,
+          "modification": {"items": [{"maxValues": 1, "minValues": 1, "values": [
+            {"code": "200002", "name": "标准", "selectedQuantity": 1, "selectedKey": "0-1"},
+            {"code": "200002", "name": "少冰", "selectedQuantity": 0, "selectedKey": "1-1"}
+          ]}]}
+        }
+      ]
+    }
+  ]
+}
